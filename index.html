@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <!-- 1. Shim missing platform features -->
+    <script src="polymer-all/polymer/polymer.js"></script>
+    <!-- 2. Load a component -->
+    <link rel="import" href="my-element.html" />
+    <link rel="import" href="tk-element.html" />
+    <link rel="import" href="tk-element-databinding.html" />
+    <link rel="import" href="tk-element-databinding-color.html" />
+    <link rel="import" href="tk-binding-to-elements.html" />
+    <link rel="import" href="tk-element-ready.html" />
+    <link rel="import" href="tk-element-property-public.html" />
+    <link rel="import" href="polymer-all/polymer-ui-elements/polymer-ui-icon/polymer-ui-icon.html" />
+    <link rel="import" href="polymer-all/polymer-ui-elements/polymer-ui-clock/polymer-ui-clock.html" />
+</head>
+<body>
+<my-element></my-element><br/>
+<tk-element></tk-element><br/>
+<tk-element-databinding></tk-element-databinding><br/>
+<tk-element-databinding-color></tk-element-databinding-color><br/>
+<tk-binding-to-elements></tk-binding-to-elements><br/>
+<tk-element-ready></tk-element-ready><br/>
+<tk-element-property-public color="green">
+    <h1>Header</h1>
+    Contents.
+</tk-element-property-public><br/>
+<polymer-ui-icon icon="drawer"></polymer-ui-icon><br/>
+<polymer-ui-clock></polymer-ui-clock><br/>
+</body>
+</html>
